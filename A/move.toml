@@ -4,8 +4,11 @@ version = "0.0.0"
 
 [addresses]
 A = "0x2"
+B = "0x2"
+C = "0x3"
 
 [dependencies]
-Bar = { git = "git@github.com:rahxephon89/move_examples.git", subdir="./B" }
-Foo = { git = "git@github.com:rahxephon89/move_examples.git", subdir="./C" }
-MoveStdlib = { local = "/Users/tengzhang/aptos-core/aptos-move/framework/move-stdlib/", addr_subst = { "std" = "0x1" } }
+
+Bar = { local = "../B" }
+Foo = { local = "../C" }
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir="language/move-stdlib", rev="171bc492c0f0b505a5b011e5dcb90625c79acb81", addr_subst = { "std" = "0x1" } }

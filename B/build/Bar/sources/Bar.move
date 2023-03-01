@@ -5,4 +5,3 @@ module B::Bar {
         Foo::bar()
     }
 }
-

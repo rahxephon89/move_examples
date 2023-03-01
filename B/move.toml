@@ -4,6 +4,7 @@ version = "0.0.0"
 
 [addresses]
 B = "0x2"
+C = "0x3"
 
 [dependencies]
-Foo = { git = "git@github.com:rahxephon89/move_examples.git", subdir="./C" }
+Foo = { local = "../C/" }
