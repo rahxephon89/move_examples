@@ -1,0 +1,20 @@
+---
+compiled_package_info:
+  package_name: Bar
+  address_alias_instantiation:
+    B: "0000000000000000000000000000000000000000000000000000000000000002"
+    C: "0000000000000000000000000000000000000000000000000000000000000003"
+  source_digest: 921F11B3CBCF880AE2827CABED5EA22BB3B2EAA36E55EEFA31B4406E5353F8DD
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      C: "0000000000000000000000000000000000000000000000000000000000000003"
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies: []

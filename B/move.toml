@@ -1,0 +1,9 @@
+[package]
+name = "Bar"
+version = "0.0.0"
+
+[addresses]
+B = "0x2"
+
+[dependencies]
+Foo = { git = "git@github.com:rahxephon89/move_examples.git", subdir="./C" }

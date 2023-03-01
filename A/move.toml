@@ -1,0 +1,11 @@
+[package]
+name = "A"
+version = "0.0.0"
+
+[addresses]
+A = "0x2"
+
+[dependencies]
+Bar = { git = "git@github.com:rahxephon89/move_examples.git", subdir="./B" }
+Foo = { git = "git@github.com:rahxephon89/move_examples.git", subdir="./C" }
+MoveStdlib = { local = "/Users/tengzhang/aptos-core/aptos-move/framework/move-stdlib/", addr_subst = { "std" = "0x1" } }
